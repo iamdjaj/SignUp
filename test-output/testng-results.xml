@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89125" started-at="2015-03-09T20:02:29Z" finished-at="2015-03-09T20:03:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89125" started-at="2015-03-09T20:02:29Z" finished-at="2015-03-09T20:03:58Z">
+      <class name="iHeartPackage.iheartSignUp">
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:iHeartPackage.iheartSignUp@15d7792]" name="GoToHomePage" duration-ms="3484" started-at="2015-03-09T16:02:29Z" description="Open the www.iheart.com" finished-at="2015-03-09T16:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="PASS" signature="SelectGenres()[pri:0, instance:iHeartPackage.iheartSignUp@15d7792]" name="SelectGenres" duration-ms="39681" started-at="2015-03-09T16:02:33Z" description="Select the first two generes and get the station play" finished-at="2015-03-09T16:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGenres -->
+        <test-method status="PASS" signature="SignUp()[pri:0, instance:iHeartPackage.iheartSignUp@15d7792]" name="SignUp" duration-ms="4230" started-at="2015-03-09T16:03:12Z" description="Sign up with a e-mail account" finished-at="2015-03-09T16:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="MyStations()[pri:0, instance:iHeartPackage.iheartSignUp@15d7792]" name="MyStations" duration-ms="24361" started-at="2015-03-09T16:03:16Z" finished-at="2015-03-09T16:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyStations -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:iHeartPackage.iheartSignUp@15d7792]" name="logout" is-config="true" duration-ms="17349" started-at="2015-03-09T16:03:41Z" description="Logout the email account" finished-at="2015-03-09T16:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- iHeartPackage.iheartSignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
